@@ -1,0 +1,24 @@
+{
+  "name": "overflow",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Uriel Ballinas",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "fbjs": "^0.2.1",
+    "gulp": "^3.9.0",
+    "node-sass": "^3.3.3",
+    "material-ui": "^0.11.1",
+    "react": "^0.13.3",
+    "react-dom": "^0.14.0-rc1",
+    "react-tap-event-plugin": "^0.1.8",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.11.0"
+  }
+}

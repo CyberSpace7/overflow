@@ -1,0 +1,253 @@
+@include font-face("icon-etc", "../sass/icons/etc/fonts/icon-etc", $file-formats: eot ttf svg);
+
+[class^="icon-etc-"], [class*=" icon-etc-"] {
+	font-family: 'icon-etc';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-etc-home:before {
+	content: "\e800";
+}
+.icon-etc-home3:before {
+	content: "\e801";
+}
+.icon-etc-newspaper:before {
+	content: "\e802";
+}
+.icon-etc-image:before {
+	content: "\e803";
+}
+.icon-etc-camera:before {
+	content: "\e804";
+}
+.icon-etc-headphones:before {
+	content: "\e805";
+}
+.icon-etc-music:before {
+	content: "\e806";
+}
+.icon-etc-play:before {
+	content: "\e807";
+}
+.icon-etc-film:before {
+	content: "\e808";
+}
+.icon-etc-connection:before {
+	content: "\e809";
+}
+.icon-etc-mic:before {
+	content: "\e80a";
+}
+.icon-etc-book:before {
+	content: "\e80b";
+}
+.icon-etc-books:before {
+	content: "\e80c";
+}
+.icon-etc-file-text:before {
+	content: "\e80d";
+}
+.icon-etc-profile:before {
+	content: "\e80e";
+}
+.icon-etc-file-picture:before {
+	content: "\e80f";
+}
+.icon-etc-file-music:before {
+	content: "\e810";
+}
+.icon-etc-file-play:before {
+	content: "\e811";
+}
+.icon-etc-stack:before {
+	content: "\e812";
+}
+.icon-etc-folder:before {
+	content: "\e813";
+}
+.icon-etc-folder-open:before {
+	content: "\e814";
+}
+.icon-etc-folder-plus:before {
+	content: "\e815";
+}
+.icon-etc-folder-minus:before {
+	content: "\e816";
+}
+.icon-etc-folder-download:before {
+	content: "\e817";
+}
+.icon-etc-price-tag:before {
+	content: "\e818";
+}
+.icon-etc-lifebuoy:before {
+	content: "\e819";
+}
+.icon-etc-location2:before {
+	content: "\e81a";
+}
+.icon-etc-alarm:before {
+	content: "\e81b";
+}
+.icon-etc-calendar:before {
+	content: "\e81c";
+}
+.icon-etc-download:before {
+	content: "\e81d";
+}
+.icon-etc-upload:before {
+	content: "\e81e";
+}
+.icon-etc-bubbles3:before {
+	content: "\e81f";
+}
+.icon-etc-search:before {
+	content: "\e820";
+}
+.icon-etc-equalizer:before {
+	content: "\e821";
+}
+.icon-etc-magic-wand:before {
+	content: "\e822";
+}
+.icon-etc-stats-dots:before {
+	content: "\e823";
+}
+.icon-etc-fire:before {
+	content: "\e824";
+}
+.icon-etc-lab:before {
+	content: "\e825";
+}
+.icon-etc-bin:before {
+	content: "\e826";
+}
+.icon-etc-tree:before {
+	content: "\e827";
+}
+.icon-etc-link:before {
+	content: "\e828";
+}
+.icon-etc-flag:before {
+	content: "\e829";
+}
+.icon-etc-attachment:before {
+	content: "\e82a";
+}
+.icon-etc-eye:before {
+	content: "\e82b";
+}
+.icon-etc-eye-blocked:before {
+	content: "\e82c";
+}
+.icon-etc-bookmark:before {
+	content: "\e82d";
+}
+.icon-etc-heart:before {
+	content: "\e82e";
+}
+.icon-etc-notification:before {
+	content: "\e82f";
+}
+.icon-etc-info:before {
+	content: "\e830";
+}
+.icon-etc-cancel-circle:before {
+	content: "\e831";
+}
+.icon-etc-blocked:before {
+	content: "\e832";
+}
+.icon-etc-exit:before {
+	content: "\e833";
+}
+.icon-etc-play3:before {
+	content: "\e834";
+}
+.icon-etc-pause2:before {
+	content: "\e835";
+}
+.icon-etc-stop2:before {
+	content: "\e836";
+}
+.icon-etc-backward2:before {
+	content: "\e837";
+}
+.icon-etc-forward3:before {
+	content: "\e838";
+}
+.icon-etc-first:before {
+	content: "\e839";
+}
+.icon-etc-last:before {
+	content: "\e83a";
+}
+.icon-etc-eject:before {
+	content: "\e83b";
+}
+.icon-etc-volume-high:before {
+	content: "\e83c";
+}
+.icon-etc-volume-medium:before {
+	content: "\e83d";
+}
+.icon-etc-volume-low:before {
+	content: "\e83e";
+}
+.icon-etc-volume-mute2:before {
+	content: "\e83f";
+}
+.icon-etc-loop:before {
+	content: "\e840";
+}
+.icon-etc-shuffle:before {
+	content: "\e841";
+}
+.icon-etc-sort-alpha-asc:before {
+	content: "\e842";
+}
+.icon-etc-sort-alpha-desc:before {
+	content: "\e843";
+}
+.icon-etc-command:before {
+	content: "\e844";
+}
+.icon-etc-shift:before {
+	content: "\e845";
+}
+.icon-etc-opt:before {
+	content: "\e846";
+}
+.icon-etc-filter:before {
+	content: "\e847";
+}
+.icon-etc-insert-template:before {
+	content: "\e848";
+}
+.icon-etc-share:before {
+	content: "\e849";
+}
+.icon-etc-new-tab:before {
+	content: "\e84a";
+}
+.icon-etc-embed:before {
+	content: "\e84b";
+}
+.icon-etc-embed2:before {
+	content: "\e84c";
+}
+.icon-etc-terminal:before {
+	content: "\e84d";
+}
+.icon-etc-share2:before {
+	content: "\e84e";
+}

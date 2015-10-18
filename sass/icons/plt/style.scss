@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'icon-plt';
+	src:url('fonts/icon-plt.eot?2vnqhh');
+	src:url('fonts/icon-plt.eot?2vnqhh#iefix') format('embedded-opentype'),
+		url('fonts/icon-plt.ttf?2vnqhh') format('truetype'),
+		url('fonts/icon-plt.woff?2vnqhh') format('woff'),
+		url('fonts/icon-plt.svg?2vnqhh#icon-plt') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-plt-"], [class*=" icon-plt-"] {
+	font-family: 'icon-plt';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plt-tux:before {
+	content: "\e818";
+}
+.icon-plt-apple:before {
+	content: "\e819";
+}
+.icon-plt-android:before {
+	content: "\e81a";
+}
+.icon-plt-windows8:before {
+	content: "\e81b";
+}
+.icon-plt-chrome:before {
+	content: "\e823";
+}
+.icon-plt-firefox:before {
+	content: "\e824";
+}
+.icon-plt-IE:before {
+	content: "\e825";
+}
+.icon-plt-opera:before {
+	content: "\e826";
+}
+.icon-plt-safari:before {
+	content: "\e827";
+}
+
