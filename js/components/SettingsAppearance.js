@@ -119,108 +119,117 @@ class SettingsAppearance extends React.Component {
               </div>
             </div>
             <div className="right">
-            <h3>Options</h3>
+            <h3>Preview</h3>
+              <div className="box-border"></div>
+            <h3>Colors</h3>
+            <div className="settings-field-row">
+              <span>Primary Color</span>
+                <ColorsPicker
+                    animation="slide-down"
+                    defaultColor={'#36c'}
+                    onChange={changeHandler}
+                    trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                  />
+            </div>
+            <div className="settings-field-row">
+              <span>Secondary Color</span>
+                <ColorsPicker
+                    animation="slide-down"
+                    defaultColor={'#36c'}
+                    onChange={changeHandler}
+                    trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                  />
+            </div>
+            <div className="settings-field-row">
+              <span>Primary Text Color</span>
+                <ColorsPicker
+                    animation="slide-down"
+                    defaultColor={'#36c'}
+                    onChange={changeHandler}
+                    trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                  />
+            </div>
+            <div className="settings-field-row">
+              <span>Secondary Text Color</span>
+                <ColorsPicker
+                    animation="slide-down"
+                    defaultColor={'#36c'}
+                    onChange={changeHandler}
+                    trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                  />
+            </div>
+            <h3>Background</h3>
+              <Checkbox
+                name="checkboxName1"
+                value="checkboxValue1"
+                label="Solid Color"
+                style={{marginBottom:22}}/>
               <div className="settings-field-row">
-                <span>Primary Color</span>
+                <span>Color</span>
                   <ColorsPicker
                       animation="slide-down"
                       defaultColor={'#36c'}
                       onChange={changeHandler}
                       trigger={<span className='react-colorpicker-trigger align-right'></span>}
                     />
-                </div>
-                <div className="settings-field-row">
-                  <span>Secondary Color</span>
-                    <ColorsPicker
-                        animation="slide-down"
-                        defaultColor={'#36c'}
-                        onChange={changeHandler}
-                        trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                      />
-                  </div>
-                  <div className="settings-field-row">
-                    <span>Primary Text Color</span>
-                      <ColorsPicker
-                          animation="slide-down"
-                          defaultColor={'#36c'}
-                          onChange={changeHandler}
-                          trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                        />
-                    </div>
-                    <div className="settings-field-row">
-                      <span>Secondary Text Color</span>
-                        <ColorsPicker
-                            animation="slide-down"
-                            defaultColor={'#36c'}
-                            onChange={changeHandler}
-                            trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                          />
-                      </div>
-                <h3>Background</h3>
-                    <Checkbox
-                      name="checkboxName1"
-                      value="checkboxValue1"
-                      label="Solid Color"
-                      style={{marginBottom:22}}/>
-                      <div className="settings-field-row">
-                        <span>Color</span>
-                          <ColorsPicker
-                              animation="slide-down"
-                              defaultColor={'#36c'}
-                              onChange={changeHandler}
-                              trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                            />
-                        </div>
-                      <Checkbox
-                        name="checkboxName1"
-                        value="checkboxValue1"
-                        label="Gradient"
-                        style={{marginBottom:16}}/>
-                        <div className="settings-field-row">
-                          <span>Color 1</span>
-                            <ColorsPicker
-                                animation="slide-down"
-                                defaultColor={'#36c'}
-                                onChange={changeHandler}
-                                trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                              />
-                          </div>
-                          <div className="settings-field-row">
-                            <span>Color 2</span>
-                              <ColorsPicker
-                                  animation="slide-down"
-                                  defaultColor={'#36c'}
-                                  onChange={changeHandler}
-                                  trigger={<span className='react-colorpicker-trigger align-right'></span>}
-                                />
-                            </div>
-                      <Checkbox
-                        name="checkboxName1"
-                        value="checkboxValue1"
-                        label="Image"
-                        style={{marginBottom:16}}/>
-                        <div className="settings-bg-img-preview">
-                          <div className="image"></div>
-                        </div>
-                    <TextField hintText="Image URL" className="settings-field"/><br />
-                    <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
-                      <RadioButton
-                        value="light"
-                        label="Scale"
-                        style={{marginBottom:16}} />
-                      <RadioButton
-                        value="not_light"
-                        label="Fill"
-                        style={{marginBottom:16}}/>
-                      <RadioButton
-                        value="ludicrous"
-                        label="Stretch"
-                        style={{marginBottom:16}}/>
-                    </RadioButtonGroup>
+              </div>
+              <Checkbox
+                name="checkboxName1"
+                value="checkboxValue1"
+                label="Gradient"
+                style={{marginBottom:16}}/>
+              <div className="settings-field-row">
+                <span>Color 1</span>
+                <ColorsPicker
+                  animation="slide-down"
+                  defaultColor={'#36c'}
+                  onChange={changeHandler}
+                  trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                />
+              </div>
+              <div className="settings-field-row">
+                <span>Color 2</span>
+                <ColorsPicker
+                  animation="slide-down"
+                  defaultColor={'#36c'}
+                  onChange={changeHandler}
+                  trigger={<span className='react-colorpicker-trigger align-right'></span>}
+                />
+              </div>
+              <Checkbox
+                name="checkboxName1"
+                value="checkboxValue1"
+                label="Image"
+                style={{marginBottom:16}}/>
+              <div className="settings-bg-img-preview">
+                <div className="image"></div>
+              </div>
+              <TextField hintText="Image URL" className="settings-field"/><br />
+              <RadioButtonGroup name="shipSpeed" defaultSelected="not_light">
+                <RadioButton
+                  value="light"
+                  label="Scale"
+                  style={{marginBottom:16}} />
+                <RadioButton
+                  value="not_light"
+                  label="Fill"
+                  style={{marginBottom:16}}/>
+                <RadioButton
+                  value="ludicrous"
+                  label="Stretch"
+                  style={{marginBottom:16}}/>
+              </RadioButtonGroup>
+              <h3>Options</h3>
+              <Toggle name="optionsPushNotify" value="toggleValue1" label="Expandable Images"/>
+              <Toggle name="optionsPushNotify" value="toggleValue1" label="Disable Images"/>
             </div>
             <div className="savebar">
-              <RaisedButton label="Cancel" />
-              <RaisedButton label="Save" secondary={true} />
+              <div className="button-horiz">
+                <RaisedButton label="Cancel" />
+              </div>
+              <div className="button-horiz">
+                <RaisedButton label="Save" secondary={true} />
+              </div>
             </div>
           </div>
         </div>

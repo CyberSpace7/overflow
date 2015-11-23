@@ -28,6 +28,7 @@ let menuItems = [
   { route: 'preferences', text: 'Preferences' },
   { route: 'appearance', text: 'Appearance' },
   { route: 'connections', text: 'Connections' },
+  { route: 'feeds', text: 'Feeds' },
   { route: 'audioplayer', text: 'Audio Player' },
   { route: 'logout', text: 'Log Out' }
 ];

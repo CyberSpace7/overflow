@@ -15,6 +15,7 @@ import SettingsProfile from './js/components/SettingsProfile';
 import SettingsPreferences from './js/components/SettingsPreferences';
 import SettingsAppearance from './js/components/SettingsAppearance';
 import SettingsConnections from './js/components/SettingsConnections';
+import SettingsFeeds from './js/components/SettingsFeeds';
 import AudioPlayer from './js/components/AudioPlayer';
 require("!style!css!sass!./sass/application.scss");
 
@@ -30,6 +31,7 @@ const AppRoutes = (
     <Route name="preferences" handler={SettingsPreferences} />
     <Route name="appearance" handler={SettingsAppearance} />
     <Route name="connections" handler={SettingsConnections} />
+    <Route name="feeds" handler={SettingsFeeds} />
     <Route name="audioplayer" handler={AudioPlayer} />
   </Route>
 );

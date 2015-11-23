@@ -1,13 +1,5 @@
-@font-face {
-	font-family: 'icon-cxn';
-	src:url('fonts/icon-cxn.eot?76xpfm');
-	src:url('fonts/icon-cxn.eot?76xpfm#iefix') format('embedded-opentype'),
-		url('fonts/icon-cxn.ttf?76xpfm') format('truetype'),
-		url('fonts/icon-cxn.woff?76xpfm') format('woff'),
-		url('fonts/icon-cxn.svg?76xpfm#icon-cxn') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+@include font-face("icon-cxn", "../sass/icons/cxn/fonts/icon-cxn", $file-formats: eot ttf svg);
+
 
 [class^="icon-cxn-"], [class*=" icon-cxn-"] {
 	font-family: 'icon-cxn';
@@ -89,4 +81,3 @@
 .icon-cxn-pinterest:before {
 	content: "\e821";
 }
-

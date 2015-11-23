@@ -47,8 +47,12 @@ class SettingsPreferences extends React.Component {
               <Toggle name="optionsHandlePodcasts" value="toggleValue1" label="Handle Podcast Links"/>
             </div>
             <div className="savebar">
-              <RaisedButton label="Cancel" />
-              <RaisedButton label="Save" secondary={true} />
+              <div className="button-horiz">
+                <RaisedButton label="Cancel" />
+              </div>
+              <div className="button-horiz">
+                <RaisedButton label="Save" secondary={true} />
+              </div>
             </div>
           </div>
         </div>

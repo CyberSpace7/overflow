@@ -62,8 +62,12 @@ class SettingsProfile extends React.Component {
               </div>
             </div>
             <div className="savebar">
-              <RaisedButton label="Cancel" />
-              <RaisedButton label="Save" secondary={true} />
+              <div className="button-horiz">
+                <RaisedButton label="Cancel" />
+              </div>
+              <div className="button-horiz">
+                <RaisedButton label="Save" secondary={true} />
+              </div>
             </div>
           </div>
         </div>
